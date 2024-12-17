@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jelkulator"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+opencv-python = "^4.10.0.84"
+matplotlib = "^3.9.3"
+scipy = "^1.14.1"
+ipympl = "^0.9.4"
+scikit-image = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
